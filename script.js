@@ -121,3 +121,6 @@ document.querySelector(".barrel-img").addEventListener("mouseout", () => {
 menu.addEventListener("click", () => {
   document.querySelector(".navbar").classList.toggle("change");
 });
+
+// Update copyright year
+document.getElementById('copyright').innerHTML = `Copyright &copy; ${new Date().getFullYear()} Tai Odunaiya . All Rights Reserved`;
